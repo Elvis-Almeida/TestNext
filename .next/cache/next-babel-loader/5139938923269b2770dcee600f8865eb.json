@@ -1,0 +1,1 @@
+{"ast":null,"code":"function Home() {\n  return bo;\n}\n\nexport default Home;","map":{"version":3,"sources":["C:/Users/Elvis/Documents/TestNext/pages/index.js"],"names":["Home","bo"],"mappings":"AAAA,SAASA,IAAT,GAAgB;AACZ,SAAOC,EAAP;AACH;;AAED,eAAeD,IAAf","sourcesContent":["function Home() {\r\n    return bo\r\n}\r\n\r\nexport default Home"]},"metadata":{},"sourceType":"module"}

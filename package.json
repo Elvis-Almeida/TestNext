@@ -1,0 +1,25 @@
+{
+  "name": "TestNext",
+  "version": "1.0.0",
+  "description": "testando o next",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elvis-Almeida/TestNext.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elvis-Almeida/TestNext/issues"
+  },
+  "homepage": "https://github.com/Elvis-Almeida/TestNext#readme",
+  "dependencies": {
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
