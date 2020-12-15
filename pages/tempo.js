@@ -11,14 +11,15 @@ function tempo(props) {
 
 }
 
-export function getStaticProps() {
+export async function getStaticProps() {
     const tempodinamico = new Date()
     const tempodinamicoString = tempodinamico.toGMTString()
 
     return {
         props: {
             tempodinamicoString
-        }
+        },
+        revalidate: 1
     }
 
 }
