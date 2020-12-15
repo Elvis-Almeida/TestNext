@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 function tempo(props) {
     const tempodinamico = new Date()
     const tempodinamicoString = tempodinamico.toGMTString()
@@ -6,6 +8,11 @@ function tempo(props) {
         <div>
             <div>{tempodinamicoString} (dinâmico)</div>
             <div>{props.tempodinamicoString} (estático)</div>
+            <Link href="/">
+                <a>
+                    Inicio
+                </a>
+            </Link>
         </div>
     )
 

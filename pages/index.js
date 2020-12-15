@@ -5,7 +5,12 @@ function Home() {
         <h1>Tá prestando</h1>
             <Link href="/sobre">
                 <a>
-                    Sobre
+                    Sobre <br/>
+                </a>
+            </Link>
+            <Link href="/tempo">
+                <a>
+                    tempo
                 </a>
             </Link>
     </div> )
